@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  
+  <h2 id="Title">Neil D'Souza</h2>
+  <a href='https://Personal-Website.neildsouza.repl.co'><input class="btn" type="button" value="home"/></a>
+  <input class="btn" type="button" value="resume"/>
+  <input class="btn" type="button" value="email"/>
+  <a href='https://Personal-Website.neildsouza.repl.co/articles.html'><input class="btn" type="button" value="articles"/></a>
+  <div id="vanta-canvas"></div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.22/vanta.net.min.js"></script>
+  <script type="text/javascript">
+    VANTA.NET({
+      el: "#vanta-canvas",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 400.00,
+      minWidth: 400.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x3fddff,
+      points: 13.00
+    })
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
